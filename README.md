@@ -1,16 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CRUD MongoDB with Next.js
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It demonstrates a simple CRUD (Create, Read, Update, Delete) application using MongoDB as the database.
+
+## Features
+
+- Create, edit, and delete topics.
+- MongoDB integration for data persistence.
+- Responsive UI built with Tailwind CSS.
+- Deployed on Vercel for easy hosting.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Prerequisites
+
+- Node.js installed on your machine.
+- A MongoDB database (local or cloud).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd CRUD_MongoDB-main
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Set up environment variables:
+
+   Create a `.env.local` file in the root of your project and add the following:
+
+   ```env
+   MONGODB_URI=<your-mongodb-connection-string>
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
